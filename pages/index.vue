@@ -42,7 +42,7 @@ useHead({
           Engineer</span
         >
         at
-        <span class="font-semibold text-blue-600 jazz cursor-pointer">
+        <span class="font-semibold text-blue-600 jazz cursor-pointer italic underline">
           <NuxtLink to="https://acornglobus.com" target="_blank"
             >AcornGlobus</NuxtLink
           > </span
@@ -71,7 +71,7 @@ useHead({
       <div class="mt-2">
         <ul class="list-none">
           <li class="text-2xl text-blue-600 font-semibold">
-            <span class="jazz cursor-pointer">
+            <span class="jazz cursor-pointer underline italic">
               <NuxtLink
                 to="https://github.com/santoshkpatro/taskite"
                 target="_blank"
@@ -83,7 +83,7 @@ useHead({
             >
           </li>
           <li class="text-2xl text-blue-600 font-semibold mt-2">
-            <span class="jazz cursor-pointer">
+            <span class="jazz cursor-pointer underline italic">
               <NuxtLink
                 to="https://github.com/santoshkpatro/calyvim"
                 target="_blank"
@@ -100,9 +100,9 @@ useHead({
       <!-- Contact -->
       <p class="text-2xl text-gray-700 leading-relaxed mt-2">
         Want to read more about my thoughts and ideas?
-        <a href="/blogs" class="text-blue-600 underline font-semibold jazz">
+        <NuxtLink to="/blogs" target="_blank" class="text-blue-600 underline font-semibold jazz italic">
           Click here to check out my blogs!
-        </a>
+        </NuxtLink>
       </p>
 
       <p class="text-2xl text-gray-700 leading-relaxed mt-2">
@@ -115,7 +115,7 @@ useHead({
         or email me at
         <a
           href="mailto:santoshkpatro11@gmail.com"
-          class="text-blue-600 underline jazz"
+          class="text-blue-600 underline jazz italic"
         >
           hey@santoshkpatro.in</a
         >.
