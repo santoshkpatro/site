@@ -18,7 +18,7 @@ useSeoMeta({
       </h1>
 
       <!-- Current Position -->
-      <p class="text-2xl text-gray-700 mb-4">
+      <p class="text-2xl text-gray-700 mb-2">
         I’m a
         <span class="font-semibold text-gray-900 jazz"
           >Senior <span class="line-through">Full</span> Any Stack Engineer</span
@@ -50,7 +50,7 @@ useSeoMeta({
         actively working on two side projects:
       </p>
 
-      <div class="mt-4">
+      <div class="mt-2">
         <ul class="list-none">
           <li class="text-2xl text-blue-600 font-semibold">
             <span class="jazz cursor-pointer">
