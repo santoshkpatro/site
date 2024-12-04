@@ -13,7 +13,7 @@ useSeoMeta({
   <main class="flex flex-col justify-center items-center text-center p-6">
     <div class="max-w-4xl">
       <!-- Big Heading -->
-      <h1 class="text-5xl font-bold text-gray-800 mb-2">
+      <h1 class="text-5xl font-bold text-gray-800 mb-4">
         Hi there! <span class="wave">👋</span>
       </h1>
 
@@ -104,7 +104,7 @@ useSeoMeta({
       </p>
 
       <!-- Caption -->
-      <p class="text-3xl text-gray-900 font-bold mt-6">
+      <p class="text-3xl text-gray-900 font-bold mt-4">
         "Coding through caffeine, smashing birdies, and chasing big dreams—one
         commit at a time."
       </p>
