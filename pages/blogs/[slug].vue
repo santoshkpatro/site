@@ -1,4 +1,14 @@
-<script setup></script>
+<script setup>
+const route = useRoute()
+
+const article = await queryContent("blogs").where({ _path: route.path }).findOne()
+await useSeoMeta({
+  title: article.title,
+  ogTitle: article.title,
+  description: article.description,
+  ogDescription: article.description
+})
+</script>
 
 <template>
   <ContentDoc v-slot="{ doc }">
