@@ -17,26 +17,6 @@
               >Blogs</NuxtLink
             >
           </li>
-          <li>
-            <NuxtLink
-              to="https://github.com/santoshkpatro"
-              class="text-gray-700 hover:text-purple-500 font-semibold"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-              to="https://x.com/santoshkpatro_"
-              class="text-gray-700 hover:text-purple-500 font-semibold"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              X
-            </NuxtLink>
-          </li>
         </ul>
       </nav>
     </header>
@@ -48,7 +28,34 @@
 
     <!-- Footer -->
     <footer class="mt-2 text-center text-gray-600">
-      <p>© 2024 Santosh Kumar Patro. All rights reserved.</p>
+      <div class="flex justify-center gap-8">
+        <NuxtLink
+          to="https://github.com/santoshkpatro"
+          class="text-gray-700 hover:text-purple-500 font-semibold"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon name="mdi:github" style="color: black" size="36" />
+        </NuxtLink>
+
+        <NuxtLink
+          to="https://x.com/santoshkpatro_"
+          class="text-gray-700 hover:text-purple-500 font-semibold"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon name="hugeicons:new-twitter-rectangle" style="color: black" size="36" />
+        </NuxtLink>
+
+        <NuxtLink
+          to="https://www.linkedin.com/in/santoshkpatro/"
+          class="text-gray-700 hover:text-purple-500 font-semibold"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon name="mdi:linkedin" style="color: black" size="36" />
+        </NuxtLink>
+      </div>
     </footer>
   </div>
 </template>
