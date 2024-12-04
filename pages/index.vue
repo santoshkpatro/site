@@ -7,6 +7,23 @@ useSeoMeta({
   ogDescription:
     "I’m a polyglot developer who’s equally comfortable wrangling Django, Vue.js, Ruby on Rails, and Go. Think of me as a Swiss Army knife of coding—effective and occasionally sarcastic",
 });
+
+useHead({
+  script: [
+    {
+      src: "https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js",
+      "data-name": "BMC-Widget",
+      "data-cfasync": "false",
+      "data-id": "santoshkpatro",
+      "data-description": "Support me on Buy me a coffee!",
+      "data-message": "",
+      "data-color": "#BD5FFF",
+      "data-position": "Right",
+      "data-x_margin": "18",
+      "data-y_margin": "18",
+    },
+  ],
+});
 </script>
 
 <template>
@@ -21,7 +38,8 @@ useSeoMeta({
       <p class="text-2xl text-gray-700 mb-2">
         I’m a
         <span class="font-semibold text-gray-900 jazz"
-          >Senior <span class="line-through">Full</span> Any Stack Engineer</span
+          >Senior <span class="line-through">Full</span> Any Stack
+          Engineer</span
         >
         at
         <span class="font-semibold text-blue-600 jazz cursor-pointer">
