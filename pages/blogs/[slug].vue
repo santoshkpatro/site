@@ -8,6 +8,9 @@ await useSeoMeta({
   description: article.description,
   ogDescription: article.description
 })
+await useHead({
+  title: `${article.title} | Santosh Kumar Patro`
+})
 </script>
 
 <template>

@@ -7,6 +7,10 @@ useSeoMeta({
   ogDescription:
     "I’m a polyglot developer who’s equally comfortable wrangling Django, Vue.js, Ruby on Rails, and Go. Think of me as a Swiss Army knife of coding—effective and occasionally sarcastic",
 });
+
+useHead({
+  title: 'Santosh Kumar Patro'
+})
 </script>
 
 <template>
@@ -90,7 +94,7 @@ useSeoMeta({
 
       <p class="text-2xl text-gray-700 leading-relaxed mt-2">
         Feel free to reach out on
-        <span class="font-bold italic jazz"
+        <span class="font-bold italic jazz text-blue-600 underline"
           ><NuxtLink to="https://x.com/santoshkpatro_" target="_blank"
             >X</NuxtLink
           ></span

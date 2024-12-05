@@ -10,6 +10,9 @@ const totalArticles = await queryContent('blogs').count()
 const totalPages = Math.ceil(totalArticles / pageSize);
 
 import dayjs from "dayjs";
+useHead({
+  title: `Blogs | Santosh Kumar Patro`
+})
 </script>
 
 <template>
