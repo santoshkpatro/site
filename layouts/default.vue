@@ -4,9 +4,15 @@
   <div class="min-h-screen border-8 border-purple-500 py-6 px-12 flex flex-col">
     <!-- Navbar -->
     <header class="flex justify-between items-center mb-6">
-      <h1 class="text-xl font-bold text-purple-500">Santosh Kumar Patro</h1>
-      <nav>
-        <ul class="flex space-x-6 text-lg">
+      <NuxtLink to="/">
+        <h1
+          class="text-xl font-bold text-purple-500 hover:text-purple-600 transition-colors duration-300"
+        >
+          Santosh Kumar Patro
+        </h1>
+      </NuxtLink>
+      <nav class="flex items-center">
+        <ul class="flex space-x-6 text-lg mr-8">
           <li>
             <NuxtLink to="/" class="text-gray-700 hover:text-purple-500"
               >Home</NuxtLink
@@ -18,6 +24,40 @@
             >
           </li>
         </ul>
+
+        <!-- Social Icons in Navbar -->
+        <div class="flex gap-4">
+          <NuxtLink
+            to="https://github.com/santoshkpatro"
+            class="text-gray-700 hover:text-purple-500 hover:drop-shadow-[0_0_10px_rgba(168,85,247,0.6)] transition-all duration-300 ease-in-out"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon name="mdi:github" style="color: black" size="24" />
+          </NuxtLink>
+
+          <NuxtLink
+            to="https://x.com/santoshkpatro_"
+            class="text-gray-700 hover:text-purple-500 hover:drop-shadow-[0_0_10px_rgba(168,85,247,0.6)] transition-all duration-300 ease-in-out"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon
+              name="hugeicons:new-twitter-rectangle"
+              style="color: black"
+              size="24"
+            />
+          </NuxtLink>
+
+          <NuxtLink
+            to="https://www.linkedin.com/in/santoshkpatro/"
+            class="text-gray-700 hover:text-purple-500 hover:drop-shadow-[0_0_10px_rgba(168,85,247,0.6)] transition-all duration-300 ease-in-out"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon name="mdi:linkedin" style="color: black" size="24" />
+          </NuxtLink>
+        </div>
       </nav>
     </header>
 

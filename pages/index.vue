@@ -9,13 +9,13 @@ useSeoMeta({
 });
 
 useHead({
-  title: 'Santosh Kumar Patro'
-})
+  title: "Santosh Kumar Patro",
+});
 </script>
 
 <template>
-  <main class="flex flex-col justify-center items-center text-center p-6">
-    <div class="max-w-4xl">
+  <main class="flex flex-col p-6">
+    <div class="max-w-4xl mx-auto">
       <!-- Big Heading -->
       <h1 class="text-5xl font-bold text-gray-800 mb-4">
         Hi there! <span class="wave">👋</span>
@@ -23,13 +23,15 @@ useHead({
 
       <!-- Current Position -->
       <p class="text-2xl text-gray-700 mb-2">
-        I’m a
+        I'm a
         <span class="font-semibold text-gray-900 jazz"
           >Senior <span class="line-through">Full</span> Any Stack
           Engineer</span
         >
         at
-        <span class="font-semibold text-blue-600 jazz cursor-pointer italic underline">
+        <span
+          class="font-semibold text-blue-600 jazz cursor-pointer italic underline"
+        >
           <NuxtLink to="https://acornglobus.com" target="_blank"
             >AcornGlobus</NuxtLink
           > </span
@@ -40,78 +42,76 @@ useHead({
 
       <!-- About Me -->
       <p class="text-2xl text-gray-700 leading-relaxed">
-        I’m a polyglot developer who’s equally comfortable wrangling
+        I'm a polyglot developer who's equally comfortable wrangling
         <span class="font-semibold text-gray-800 jazz">Django</span>,
         <span class="font-semibold text-gray-800 jazz">Vue.js</span>,
         <span class="font-semibold text-gray-800 jazz">Ruby on Rails</span>, and
         <span class="font-semibold text-gray-800 jazz">Go</span>. Think of me as
-        a Swiss Army knife of coding—effective and occasionally sarcastic.
+        a tech polymath—effective and occasionally sarcastic.
       </p>
 
       <p class="text-2xl text-gray-700 leading-relaxed mt-2">
-        I’ve also built <span class="font-semibold jazz">Shopify apps</span>,
-        smashed birdies on the
-        <span class="font-semibold jazz">badminton court 🏸</span>, and am
-        actively working on two side projects:
+        I've also built <span class="font-semibold jazz">Shopify apps</span> and
+        am actively working on my passion project:
       </p>
 
-      <div class="mt-2">
-        <ul class="list-none">
-          <li class="text-2xl text-blue-600 font-semibold">
-            <span class="jazz cursor-pointer underline italic">
-              <NuxtLink
-                to="https://github.com/santoshkpatro/taskite"
-                target="_blank"
-                >Taskite</NuxtLink
-              > </span
-            >:
-            <span class="text-gray-700"
-              >An open-source project management tool.</span
+      <div class="mt-4">
+        <h2 class="text-3xl font-bold text-gray-800 mb-2">🚀 Calyvim</h2>
+        <p class="text-2xl text-gray-700 leading-relaxed">
+          <span
+            class="text-blue-600 font-semibold jazz cursor-pointer underline italic"
+          >
+            <NuxtLink to="https://calyvim.com" target="_blank"
+              >Calyvim</NuxtLink
             >
-          </li>
-          <li class="text-2xl text-blue-600 font-semibold mt-2">
-            <span class="jazz cursor-pointer underline italic">
-              <NuxtLink
-                to="https://github.com/santoshkpatro/calyvim"
-                target="_blank"
-                >Calyvim</NuxtLink
-              > </span
-            >:
-            <span class="text-gray-700"
-              >An invoicing and book-keeping tool.</span
-            >
-          </li>
-        </ul>
+          </span>
+          is an open-source project/product management tool to streamline
+          business workflows.
+        </p>
+      </div>
+
+      <div class="mt-6">
+        <h2 class="text-3xl font-bold text-gray-800 mb-2">
+          🏸 Off the Keyboard
+        </h2>
+        <p class="text-2xl text-gray-700 leading-relaxed">
+          When I'm not coding, you can find me smashing shuttlecocks on the
+          badminton court.
+        </p>
       </div>
 
       <!-- Contact -->
       <p class="text-2xl text-gray-700 leading-relaxed mt-2">
         Want to read more about my thoughts and ideas?
-        <NuxtLink to="/blogs" target="_blank" class="text-blue-600 underline font-semibold jazz italic">
+        <NuxtLink
+          to="/blogs"
+          target="_blank"
+          class="text-blue-600 underline font-semibold jazz italic"
+        >
           Click here to check out my blogs!
         </NuxtLink>
       </p>
 
       <p class="text-2xl text-gray-700 leading-relaxed mt-2">
         Feel free to reach out on
-        <span class="font-bold italic jazz text-blue-600 underline"
-          ><NuxtLink to="https://x.com/santoshkpatro_" target="_blank"
+        <span class="font-bold italic jazz text-blue-600 underline">
+          <NuxtLink to="https://x.com/santoshkpatro_" target="_blank"
             >X</NuxtLink
-          ></span
-        >
+          >
+        </span>
         or email me at
         <a
           href="mailto:santoshkpatro11@gmail.com"
           class="text-blue-600 underline jazz italic"
         >
-          hey@santoshkpatro.in</a
+          hey@santoshkpatro.in </a
         >.
       </p>
 
       <!-- Caption -->
-      <p class="text-3xl text-gray-900 font-bold mt-4">
-        "Coding through caffeine, smashing birdies, and chasing big dreams—one
-        commit at a time."
+      <p class="text-xl text-gray-900 font-bold mt-4">
+        "Coding through caffeine, smashing birdies, and chasing big dreams with
+        passion."
       </p>
     </div>
   </main>
